@@ -7,6 +7,8 @@
   <!-- Link to external CSS -->
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
+  <!-- 🔥 ADD THIS in <head> (Font Awesome CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
@@ -31,7 +33,8 @@
       <h1>
         Hi, there!<br>
         I'am <span id="typing"></span>
-      </h1>      <p>Student web-developer from India who is either busy improving his craft or pondering over the next big idea.</p>
+      </h1>      <p>a passionate developer focused on building modern, responsive, and user-friendly web applications. My portfolio represents my journey in technology, where I continuously explore new tools, improve my skills, and turn ideas into real-world projects.
+        I specialize in front-end and full-stack development using HTML, CSS, JavaScript, and other modern technologies. I enjoy creating clean UI designs with smooth user experiences, along with adding interactive features that make websites more engaging.</p>
       <a href="#" class="connect-btn">Let’s ↗ Connect</a>
     </div>
 
@@ -130,11 +133,16 @@
   <h2>Contact Me</h2>
 
   <div class="contact-box">
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5"></textarea>
+    <form class="contact-form" action="https://formspree.io/f/mdaygwke" method="POST">
+  
+      <input type="text" name="name" placeholder="Your Name" required>
+      
+      <input type="email" name="email" placeholder="Your Email" required>
+      
+      <textarea name="message" placeholder="Your Message" rows="5"></textarea>
+      
       <button type="submit">Send Message</button>
+    
     </form>
   </div>
 </section>
@@ -143,11 +151,23 @@
   <!-- Footer -->
   <footer>
     <p>© 2025 Parth Mittal | All Rights Reserved</p>
-    <div class="footer-links">
-      <a href="#">LinkedIn</a>
-      <a href="#">GitHub</a>
-      <a href="#">youtude</a>
-      <a href="#">Email</a>
-    </div>
+<!-- 🔥 REPLACE your footer links with icons (same style maintained) -->
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/Jit-kumar-paria-753455398" target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/jit992005" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.youtube.com/@Jitparia-qg5gl" target="_blank">
+      <i class="fab fa-youtube"></i>
+    </a>
+    <a href="https://www.instagram.com/jit_paria_35" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.facebook.com/jit.paria.2025" target="_blank">
+      <i class="fab fa-facebook"></i>
+    </a>
+</div>
   </footer>
 

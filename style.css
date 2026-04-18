@@ -165,8 +165,8 @@ nav:hover {
   
   .hero-text p {
     margin-bottom: 25px;
-    font-size: 18px;
-    color: #cfd8dc;
+    font-size: 20px;
+    color: #b0b6ee;
   }
   
   .connect-btn {
@@ -189,8 +189,7 @@ nav:hover {
                 0 0 30px rgba(0, 200, 255, 0.7),
                 0 0 45px rgba(0, 200, 255, 0.5);
     transform: scale(1.05);  /* Slight zoom effect */
-  }
-  
+  }  
   
  /* Hero Image */
 .hero-img {
@@ -263,19 +262,20 @@ footer p {
   flex-wrap: wrap;
 }
 
+/* 🔥 UPDATE icon style (keep your same glow style) */
+
 .footer-links a {
-  color: #00ffe1; /* Neon cyan */
-  font-weight: 500;
-  font-size: 18px;
+  font-size: 35px;
+  color: #00ffe1;
   transition: 0.3s ease-in-out;
   text-shadow: 0 0 5px #00ffe1,
-               0 0 10px rgba(0, 255, 225, 0.7); /* Light glow effect */
+               0 0 10px rgba(0, 255, 225, 0.7);
 }
 
 .footer-links a:hover {
-  color: #ff8a66; /* Neon orange-pink */
+  color: #ff8a66;
   text-shadow: 0 0 8px #ff8a66,
-               0 0 15px rgba(255, 138, 102, 0.8); /* Glow changes on hover */
+               0 0 15px rgba(255, 138, 102, 0.8);
 }
 
 
@@ -427,6 +427,7 @@ footer p {
     padding: 20px;
   }
 }
+
 
 /* Scroll Animation */
 .hidden {
