@@ -45,11 +45,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 60px;
+  padding: 20px 30px;
   background: #111827;
   border: 2px solid #00c8ff;
   border-radius: 12px;
-  margin: 20px 40px;
+  margin: 20px 20px;
   box-shadow: 0 0 15px #00c8ff,
               0 0 30px rgba(0, 200, 255, 0.5);
   transition: 0.3s ease-in-out;
@@ -73,17 +73,19 @@ nav:hover {
 
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 10px;
+  flex-wrap: nowrap;
 }
 
 .nav-links a {
-  font-size: 18px;
-  padding: 8px 16px;
+  font-size: 14px;
+  padding: 8px 10px;
   border: 2px solid transparent;
   border-radius: 8px;
   color: #00fbff;
   position: relative;
   transition: all 0.3s ease-in-out;
+  white-space: nowrap;
 }
 
 .nav-links a:hover {
