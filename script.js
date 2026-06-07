@@ -49,3 +49,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const skillsTable = document.querySelector(".skills-table");
+  const leftBtn = document.querySelector(".left-btn");
+  const rightBtn = document.querySelector(".right-btn");
+
+  if (leftBtn && rightBtn && skillsTable) {
+    leftBtn.addEventListener("click", () => {
+      skillsTable.scrollBy({ left: -150, behavior: "smooth" });
+    });
+
+    rightBtn.addEventListener("click", () => {
+      skillsTable.scrollBy({ left: 150, behavior: "smooth" });
+    });
+  }
+});
